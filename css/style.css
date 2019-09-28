@@ -7,14 +7,63 @@
 }
 
 [class*="col-"] {
-  height: 100px; /* DEBUG:  */
+  height: auto; /* DEBUG:  */
   border: 1px solid;
+}
+
+/* font */
+body {
+  font-family: 'Roboto', sans-serif;
+  /* @font-face. */
+}
+
+/* H1:  */
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  line-height: 500px;
+}
+
+/* elenchi puntati:  */
+nav ul {
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  padding: 4%;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
 }
 
 /*  header  */
 /*  navbar */
-
-
-
+.navleft {
+  text-align: left;
+  padding: 5% 10%;
+}
 
 /*  img grande */
+.mainimg {
+  background-image: url(../img/mainimg.jpg);
+  height: 500px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.mainimg > H2 {
+  color: orange;
+
+}
+
+
+/* 2bici */
+/* old man */
+/* how it works and steps:  */
+/* smart mobility */
+/* get the app and find us */
+/* family */
+
+/* footers */
