@@ -17,14 +17,6 @@ body {
   /* @font-face. */
 }
 
-/* H1:  */
-h1 {
-  color: white;
-  text-align: center;
-  font-size: 50px;
-  line-height: 500px;
-}
-
 /* elenchi puntati:  */
 nav ul {
   list-style: none;
@@ -45,6 +37,11 @@ nav a {
   text-align: left;
   padding: 5% 10%;
 }
+/* .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+} */
 
 /*  img grande */
 .mainimg {
@@ -52,10 +49,31 @@ nav a {
   height: 500px;
   background-size: 100%;
   background-repeat: no-repeat;
+  text-align: center;
+  position: relative;
 }
-.mainimg > H2 {
-  color: orange;
+h1 {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+}
 
+.mainimg > H2 {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  left: 50%;
+  top:70%;
+  transform: translate(-50%, -50%)
+}
+.mainimg > a {
+  position: absolute;
+  left: 50%;
+  top:90%;
+  transform: translate(-50%, -50%)
 }
 
 
