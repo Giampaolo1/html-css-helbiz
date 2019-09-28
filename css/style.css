@@ -46,19 +46,27 @@ nav a {
 /*  img grande */
 .mainimg {
   background-image: url(../img/mainimg.jpg);
+  z-index: 5;
   height: 500px;
   background-size: 100%;
   background-repeat: no-repeat;
   text-align: center;
   position: relative;
 }
+
+.opaco {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  }
+
 h1 {
   color: white;
   font-size: 50px;
   position: absolute;
   left: 50%;
-  top:50%;
+  top:40%;
   transform: translate(-50%, -50%);
+  width: 100%;
 }
 
 .mainimg > H2 {
@@ -66,14 +74,15 @@ h1 {
   font-size: 15px;
   position: absolute;
   left: 50%;
-  top:70%;
-  transform: translate(-50%, -50%)
+  top:50%;
+  transform: translate(-50%, -50%);
 }
-.mainimg > a {
+
+.store {
   position: absolute;
   left: 50%;
-  top:90%;
-  transform: translate(-50%, -50%)
+  top:60%;
+  transform: translate(-50%, -50%);
 }
 
 
